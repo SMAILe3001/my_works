@@ -55,9 +55,9 @@
 }
 
 .works__title {
-	@include font(900, 26px, 42px, 0.03em);
+	@include font(700, 20px, 22px, 0.03em);
 }
 
 .works__text {
-	@include font(500, 16px, 22px, 0.03em);
+	@include font(300, 14px, 16px, 0.03em);
 }

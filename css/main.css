@@ -415,15 +415,15 @@ textarea {
 }
 
 .works__title {
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.6153846154;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 }
 
 .works__text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.375;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.1428571429;
   letter-spacing: 0.03em;
 }/*# sourceMappingURL=main.css.map */
