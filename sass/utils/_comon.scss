@@ -1,0 +1,64 @@
+// Видалення крапок списку
+.list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+// видалення підкреслювання ссилок
+.link {
+	text-decoration: none;
+}
+
+// Скриття елемента
+.hidden {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+}
+
+// центрування і обмеження контенту
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 250px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	@media screen and (min-width: $mobile-width) {
+		width: $mobile-width;
+	}
+
+	@media screen and (min-width: $table-width) {
+		width: $table-width;
+	}
+
+	@media screen and (min-width: $desktop-width) {
+		width: $desktop-width;
+	}
+}
+
+// обнулення відступів
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+// видалення відступів картинок
+img,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+// видалення стандартних рамок у форм при фокусі
+input,
+textarea {
+	outline: none;
+}
