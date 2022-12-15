@@ -1,5 +1,5 @@
 .section__works {
-	background-color: rgb(238, 238, 238);
+	background-color: #eeeeee;
 }
 
 .works__list {
@@ -34,12 +34,12 @@
 	border: 1px solid #afb1b8;
 	border-radius: 10px;
 	padding: 10px;
-	background-color: rgb(144, 156, 144);
-	color: rgb(255, 255, 255);
+	background-color: #909c90;
+	color: #ffffff;
 	transition: background 250ms $timing-animation;
 	&:hover,
 	&:focus {
-		background-color: rgba(130, 188, 240);
+		background-color: #82bcf0;
 	}
 
 	@media screen and (min-width: $table-width) {
@@ -53,6 +53,7 @@
 			border-radius: 10px;
 			background-color: rgba(107, 112, 112, 0.9);
 			transition: transform 250ms $timing-animation;
+			z-index: 1;
 		}
 	}
 }

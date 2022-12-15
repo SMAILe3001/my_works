@@ -1,0 +1,24 @@
+.goit-html_css-rel {
+	position: relative;
+}
+.goit-html_css {
+	position: absolute;
+	display: flex;
+	gap: 5px;
+	top: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.goit-html_css__item {
+	background-color: #615c5c;
+	border-radius: 50%;
+	&:hover {
+		background-color: #82bcf0;
+	}
+}
+
+.goit-html_css__link {
+	padding: 5px;
+	color: #ffffff;
+}
