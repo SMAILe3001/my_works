@@ -346,6 +346,8 @@ textarea {
 }
 
 .section__works {
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #eeeeee;
 }
 
@@ -399,7 +401,7 @@ textarea {
 .works__link:hover, .works__link:focus {
   background-color: #82bcf0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .works__link::before {
     content: "";
     position: absolute;
@@ -418,6 +420,8 @@ textarea {
 }
 
 .works__title {
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.1;
@@ -425,7 +429,7 @@ textarea {
 }
 
 .works__text {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.1428571429;
   letter-spacing: 0.03em;

@@ -1,4 +1,6 @@
 .section__works {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #eeeeee;
 }
 
@@ -42,7 +44,7 @@
 		background-color: #82bcf0;
 	}
 
-	@media screen and (min-width: $table-width) {
+	@media screen and (min-width: $desktop-width) {
 		&::before {
 			content: "";
 			position: absolute;
@@ -59,9 +61,11 @@
 }
 
 .works__title {
-	@include font(700, 20px, 22px, 0.03em);
+	margin-top: 5px;
+	margin-bottom: 5px;
+	@include font(700, 20, 22, 0.03);
 }
 
 .works__text {
-	@include font(300, 14px, 16px, 0.03em);
+	@include font(400, 14, 16, 0.03);
 }
